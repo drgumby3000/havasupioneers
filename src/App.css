@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  background-image: url('/assets/water001.jpg');  
+}
+ 
+.App-logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 5vmin; 
+  pointer-events: none;
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  /* havasu   background-color: #007995; */ 
+  min-height: 1vh;  /* 100vh */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: white;    
+  background-image: url('/assets/wood.jpg'); 
+}
+
+.App-link {
+  color: #61dafb;
+    font-size: calc(1px + 2vmin);
+}
+
+.App-radiolink {
+  color: #61dafb;
+     background-image: url('/assets/water001.jpg'); 
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.carousel {
+ 
+}
+ 
+.carousel .slider-wrapper {
+   /* height: 60%;  */    
+}
+
+p {
+    margin-block-start: 0em;
+    margin-block-end: .2em;
+}
